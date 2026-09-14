@@ -1,27 +1,45 @@
-# MoodMate — Self-Help MVP
+# MoodMate 🌻
 
-A local-first wellness app: mood check-ins, habits, journal, and an AI companion (chat + insights) powered by Google Gemini using your own free-tier API key.
+MoodMate is a self-help wellness companion that helps you track your mood, build small daily habits, journal your thoughts, and talk things through with an AI companion — all in one simple dashboard.
 
-## Stack
-- Next.js (App Router) + TypeScript + Tailwind v4
-- No backend, no accounts — all data lives in the browser's localStorage
-- Gemini API called directly from the browser using a key you paste in; the key lives only for the current session (never persisted)
+No sign-up. No accounts. Your data stays entirely on your own device.
 
-## Run locally
-```
+## Live app
+🔗 [Add your Vercel link here]
+
+## What it does
+
+- **Mood check-ins** — log how you're feeling each day, with an optional note
+- **Habits** — a simple, no-fuss habit tracker (tick to complete, edit to rename)
+- **Journal** — a private space to write and revisit your thoughts
+- **Dashboard** — your mood, habits, and journal at a glance, always visible
+- **AI Chat** — talk to MoodMate, an AI companion that responds with context from your actual mood and habits
+- **AI Insights** — get a short, personalized reflection on patterns in your mood and habit data
+
+## How your data works
+
+Everything you track — moods, habits, journal entries — is stored locally in your browser (`localStorage`). It never gets sent to a server or saved anywhere else. If you clear your browser data or switch devices, that history is gone, and you can wipe it yourself anytime from **Settings → Delete all my data**.
+
+## About the AI features
+
+AI Chat and Insights are powered by Google's Gemini API. MoodMate doesn't come with a built-in key — you bring your own, free from Google AI Studio:
+
+👉 https://aistudio.google.com/app/apikey
+
+The first time you open AI Chat or Insights, you'll be asked to paste your key. It's used only for that browser session — it's never saved to disk, never sent anywhere but directly to Google's API, and you'll need to enter it again next time you open the app.
+
+## Running it yourself
+
 npm install
 npm run dev
-```
 
-## Deploy to Vercel
-1. Push this folder to a GitHub repo.
-2. Import the repo in Vercel — no environment variables needed (users bring their own Gemini key at runtime).
-3. Deploy. Framework preset: Next.js (auto-detected).
 
-## Get a free Gemini key
-https://aistudio.google.com/app/apikey
+Then open `http://localhost:3000`.
 
-## Notes
-- All mood/habit/journal data is local to the browser — clearing site data or switching browsers loses it.
-- "Delete all my data" in Settings wipes localStorage.
-- This is a hackathon MVP: no auth, no sync, no offline PWA yet.
+## Tech stack
+
+Next.js (App Router) + TypeScript + Tailwind CSS. No backend, no database — everything runs in the browser.
+
+## A note on scope
+
+This is a hackathon MVP. No accounts, no cross-device sync, no offline support yet — deliberately kept simple so the core self-help experience works well first.
