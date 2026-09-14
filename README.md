@@ -44,3 +44,15 @@ Next.js (App Router) + TypeScript + Tailwind CSS. No backend, no database — ev
 ## A note on scope
 
 This is a hackathon MVP. No accounts, no cross-device sync, no offline support yet — deliberately kept simple so the core self-help experience works well first.
+<img width="1920" height="1200" alt="Screenshot (25)" src="https://github.com/user-attachments/assets/1e90acff-a28c-429d-a549-9ad4f0d1bc82" />
+
+down below are screenshots of working app with real data <img width="1920" height="1200" alt="Screenshot (34)" src="https://github.com/user-attachments/assets/bbcc818e-474d-464f-b803-29b2ab790854" />
+<img width="1920" height="1200" alt="Screenshot (33)" src="https://github.com/user-attachments/assets/ab778c4f-d90b-439e-89f7-5f3552862481" />
+<img width="1920" height="1200" alt="Screenshot (32)" src="https://github.com/user-attachments/assets/e89cbc6a-6dfa-481f-b2ad-f74a64741aa1" />
+<img width="1920" height="1200" alt="Screenshot (31)" src="https://github.com/user-attachments/assets/8a2cb987-8ac2-4405-819a-b59448456ebd" />
+<img width="1920" height="1200" alt="Screenshot (30)" src="https://github.com/user-attachments/assets/1c5f206a-c986-4eb9-880d-7357bfa3a7fe" />
+<img width="1920" height="1200" alt="Screenshot (29)" src="https://github.com/user-attachments/assets/bc78f3ea-729c-4a4d-8de0-74855841d412" />
+:<img width="1920" height="1200" alt="Screenshot (28)" src="https://github.com/user-attachments/assets/4f8af0da-d824-4c11-a1d3-5c29acddb268" />
+<img width="1920" height="1200" alt="Screenshot (27)" src="https://github.com/user-attachments/assets/b9fdf364-292e-42da-a98f-a31269fb0c6a" />
+<img width="1920" height="1200" alt="Screenshot (26)" src="https://github.com/user-attachments/assets/1fa78782-48ae-499f-9146-efd838e22661" />
+
