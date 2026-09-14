@@ -5,7 +5,7 @@ MoodMate is a self-help wellness companion that helps you track your mood, build
 No sign-up. No accounts. Your data stays entirely on your own device.
 
 ## Live app
-🔗 [Add your Vercel link here]
+🔗 https://moodmate-lhczqsovg-vaishnavisuvarnakars-projects.vercel.app/dashboard
 
 ## What it does
 
