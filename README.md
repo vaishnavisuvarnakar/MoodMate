@@ -44,9 +44,10 @@ Next.js (App Router) + TypeScript + Tailwind CSS. No backend, no database — ev
 ## A note on scope
 
 This is a hackathon MVP. No accounts, no cross-device sync, no offline support yet — deliberately kept simple so the core self-help experience works well first.
-<img width="1920" height="1200" alt="Screenshot (25)" src="https://github.com/user-attachments/assets/1e90acff-a28c-429d-a549-9ad4f0d1bc82" />
 
-down below are screenshots of working app with real data <img width="1920" height="1200" alt="Screenshot (34)" src="https://github.com/user-attachments/assets/bbcc818e-474d-464f-b803-29b2ab790854" />
+down below are screenshots of working app with real data:
+
+<img width="1920" height="1200" alt="Screenshot (34)" src="https://github.com/user-attachments/assets/bbcc818e-474d-464f-b803-29b2ab790854" />
 <img width="1920" height="1200" alt="Screenshot (33)" src="https://github.com/user-attachments/assets/ab778c4f-d90b-439e-89f7-5f3552862481" />
 <img width="1920" height="1200" alt="Screenshot (32)" src="https://github.com/user-attachments/assets/e89cbc6a-6dfa-481f-b2ad-f74a64741aa1" />
 <img width="1920" height="1200" alt="Screenshot (31)" src="https://github.com/user-attachments/assets/8a2cb987-8ac2-4405-819a-b59448456ebd" />
