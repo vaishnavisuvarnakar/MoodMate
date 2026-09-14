@@ -31,6 +31,7 @@ The first time you open AI Chat or Insights, you'll be asked to paste your key. 
 ## Running it yourself
 
 npm install
+
 npm run dev
 
 
