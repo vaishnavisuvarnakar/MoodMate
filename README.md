@@ -15,6 +15,7 @@ No sign-up. No accounts. Your data stays entirely on your own device.
 - **Dashboard** — your mood, habits, and journal at a glance, always visible
 - **AI Chat** — talk to MoodMate, an AI companion that responds with context from your actual mood and habits
 - **AI Insights** — get a short, personalized reflection on patterns in your mood and habit data
+- **Discover resources** — search for mindful journaling ideas and other educational resources using SerpApi
 
 ## How your data works
 
@@ -30,16 +31,32 @@ The first time you open AI Chat or Insights, you'll be asked to paste your key. 
 
 ## Running it yourself
 
-npm install
+Install dependencies:
 
+```bash
+npm install
+```
+
+To enable resource discovery, create a `.env.local` file in the project root and add your SerpApi key:
+
+```bash
+SERPAPI_KEY=your_serpapi_key
+```
+
+Keep this key private and never commit `.env.local`. Resource searches are sent through a server-side Next.js route; MoodMate does not send local journal entries, mood history, or habits to SerpApi.
+
+Start the app:
+
+```bash
 npm run dev
+```
 
 
 Then open `http://localhost:3000`.
 
 ## Tech stack
 
-Next.js (App Router) + TypeScript + Tailwind CSS. No backend, no database — everything runs in the browser.
+Next.js (App Router) + TypeScript + Tailwind CSS. Mood, journal, and habit data stay in browser storage; resource discovery uses a small server-side API route and SerpApi. No database or account system.
 
 ## A note on scope
 
